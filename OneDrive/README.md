@@ -4,4 +4,4 @@ Uses Microsoft Graph with **client credentials**. Set `$clientId`, `$clientSecre
 
 | Script | Purpose |
 |---|---|
-| `checkOneDriveSharedFiles.ps1` | List files shared via OneDrive (`/drive/shared`) and print name plus web URL. |
+| `Get-OneDriveSharedFiles.ps1` | List files shared via OneDrive (`/drive/shared`) and print name plus web URL. |
