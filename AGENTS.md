@@ -5,7 +5,7 @@ Remote: `https://github.com/mattbrambilla/Powershell-Scirpts.git` (branch: `mast
 
 ## Attenzione
 
-- **README.md** è un template boilerplate non personalizzato → non fidarsi, usare AGENTS.md.
+- **README.md** (inglese) è l'indice pubblico del repo; ogni cartella prodotto ha un README con l'elenco script.
 - Script contengono segnaposto da sostituire prima dell'esecuzione:
   - `TuoClientID`, `TuoClientSecret`, `TuoTenantID`
   - `[Your Mailbox adress here]`
@@ -16,11 +16,13 @@ Remote: `https://github.com/mattbrambilla/Powershell-Scirpts.git` (branch: `mast
 
 | Directory/file | Contenuto |
 |---|---|
-| `Exchange Online/` | Exchange Online: retention policy, address list, room mailbox, mailbox enumeration |
-| `Microsoft Entra/` | Microsoft Entra ID: MFA metodi autenticazione |
-| `SharePoint Online/` | SharePoint Online: aggiunta admin di sito in blocco |
-| `remove duplicate users/` | Rimozione utenti duplicati |
-| Root `*.ps1` | Script vari: app permissions, OneDrive, Teams export, blocco remoto PC, cambio lingua sistema, copia file tra server |
+| `Exchange-Online/` | Retention policy, address list, GAL, room mailbox auto-release, shared mailbox vuote |
+| `Microsoft-Entra/` | Report metodi MFA, rimozione permessi app |
+| `SharePoint-Online/` | Aggiunta admin di sito in blocco |
+| `Teams/` | Export team e membri |
+| `OneDrive/` | File condivisi OneDrive |
+| `Windows/` | Blocco remoto PC, lingua sistema, copia file, pulizia duplicati Mail |
+| `templates/` | Boilerplate README/CHANGELOG (non è la documentazione del progetto) |
 
 ## Moduli PowerShell richiesti
 
