@@ -10,7 +10,7 @@ Scripts are grouped by product so you can open a folder and see only what you ne
 |---|---|
 | [Exchange-Online](Exchange-Online/) | Retention hold, address lists, room mailbox auto-release, empty shared mailboxes |
 | [Microsoft-Entra](Microsoft-Entra/) | MFA authentication-methods report, remove app permissions |
-| [SharePoint-Online](SharePoint-Online/) | Bulk site-collection admins |
+| [SharePoint-Online](SharePoint-Online/) | Bulk site-collection admins and SharePoint version-history cleanup |
 | [Teams](Teams/) | Export teams and members (optionally with SharePoint) |
 | [OneDrive](OneDrive/) | List files shared via OneDrive |
 | [Windows](Windows/) | Remote lock, system language, copy files, local Mail duplicate cleanup |
